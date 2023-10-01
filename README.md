@@ -1,7 +1,7 @@
 
 # Multi-Organ and Pan-cancer Segmentation Framework from Partially Labeled Abdominal CT Datasets: Fine and Swift nnU-Nets with Label Fusion
 
-Pipeline of our model:
+Framework of our solution:
 ![Pipeline Visualization](Pipeline.PNG)
 
 This repository offers the solution by team snuhmedisc for the [MICCAI FLARE23 Challenge](https://codalab.lisn.upsaclay.fr/competitions/12239).
@@ -65,7 +65,7 @@ nnUNet_train 3d_fullres nnUNetTrainerV2_FLARE_Fine 23 all -p nnUNetPlansFLARE23F
 
 ### 1.4 Generate Pseudo-labels for 1800 Unlabeled Data
 
-You can generate pseudo labels for 1800 unlabeled pieces of data.
+You can generate Pseudo-labels S1, S2, S3 for 1800 unlabeled pieces of data.
 ```bash
 nnUNet_predict -i INPUTS_FOLDER -o OUTPUTS_FOLDER  -t 23  -tr nnUNetTrainerV2_FLARE_Fine  -m 3d_fullres  -p nnUNetPlansFLARE23Fine  --all_in_gpu True  -f all -chk 'YOUR_MODEL'  --mode fastest
 ```
