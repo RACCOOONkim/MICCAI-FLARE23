@@ -4,7 +4,7 @@
 Framework of our solution:
 ![Pipeline Visualization](./imgs/Pipeline.PNG)
 
-This repository offers the solution by team snuhmedisc for the [MICCAI FLARE23 Challenge](https://codalab.lisn.upsaclay.fr/competitions/12239).
+This repository offers the solution by Team snuhmedisc for the [MICCAI FLARE23 Challenge](https://codalab.lisn.upsaclay.fr/competitions/12239).
 
 Further details of our method can be found in our paper: **[Multi-Organ and Pan-cancer Segmentation Framework from Partially Labeled Abdominal CT Datasets: Fine and Swift nnU-Nets with Label Fusion](https://openreview.net/pdf?id=6IUTVrtDAw)**.
 
