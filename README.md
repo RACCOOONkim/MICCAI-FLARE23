@@ -145,13 +145,6 @@ Finally perform multi-organ and tumor segmentation using Swift nnU-Net
 nnUNet_predict -i INPUTS_FOLDER -o OUTPUTS_FOLDER  -t 24  -tr nnUNetTrainerV2_FLARE_Swift  -m 3d_fullres  -p nnUNetPlansFLARE23Swift  --all_in_gpu True   -f all  --mode fastest  --disable_tta
 ```
 
-### Trained Models
-
-You can use the pre-trained model in the following path in this repo. (TaskID : 13)
-```bash
-FLARE23/dataset/nnUNet_results/nnUNet/3d_fullres/Task013_final/nnUNetTrainerV2_FLARE_Swift__nnUNetPlansFLARE23Swift/all/model_pretrained.model
-```
-
 ## Results
 
 Our method's performance on the [MICCAI FLARE23 Challenge](https://codalab.lisn.upsaclay.fr/competitions/12239) is as follows:
