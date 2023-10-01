@@ -20,8 +20,8 @@ This repo is based on MIC-DKFZ/nnUNet. The requirements of nnU-Net should be sat
 To set up, follow:
 
 ```bash
-git clone https://github.com/RACCOOONkim/FLARE23.git
-cd FLARE23
+git clone https://github.com/YoungKong/MICCAI-FLARE23.git
+cd MICCAI-FLARE23
 pip install -e .
 path.sh
 ```
