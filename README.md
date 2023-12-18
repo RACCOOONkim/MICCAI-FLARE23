@@ -175,7 +175,7 @@ Our method's performance on the [MICCAI FLARE23 Challenge](https://codalab.lisn.
 
 ## Acknowledgements
 
-We are grateful to the contributors of the public datasets.
+We declare that the segmentation method we implemented for participation in the FLARE 2023 challenge has not used any pre-trained models nor additional datasets other than those provided by the organizers. The proposed solution is fully automatic without any manual intervention. We thank all the data owners for making the CT scans publicly available and CodaLab for hosting the challenge platform. This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (No. 2021-0-0052, Cloud-based XR content conversion and service technology development that changes according to device performance) and Institute of Information and Communications Technology Planning and Evaluation (IITP) grant funded by the Korea Government (MSIT) (No. 2021-0-00312, development of non-face-to-face patient infection activity prediction and protection management SW technology at home and community treatment centers for effective response to infectious disease).
 
 ## Citations
 
